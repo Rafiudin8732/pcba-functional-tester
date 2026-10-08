@@ -1,0 +1,14 @@
+board:
+  name: "Controller Board"
+  supply_voltage: 12.0
+  voltage_tolerance: 0.25
+  max_current: 0.6
+  expected_clock_frequency: 1000000
+  frequency_tolerance: 0.15
+  startup_time_limit_seconds: 5.0
+
+limits:
+  rail_voltage_min: 11.7
+  rail_voltage_max: 12.3
+  signal_frequency_min: 850000
+  signal_frequency_max: 1150000
